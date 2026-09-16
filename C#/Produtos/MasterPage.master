@@ -1,0 +1,63 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 782px;
+            height: 22px;
+        }
+        .auto-style3 {
+            height: 22px;
+        }
+        .auto-style4 {
+            width: 102px;
+            height: 49px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <img alt="" class="auto-style4" src="imagens/sacola.gif" />
+    </div>
+        <table class="auto-style1">
+            <tr>
+                <td>
+                    <table class="auto-style1">
+                        <tr>
+                            <td class="auto-style2">
+                                <a href="categorias.aspx">Listar Categoria ></a>&nbsp;
+                                <a href="PROD_CAT.ASPX">Listar Produtos por categoria ></a>&nbsp;
+                                <a href="fornecedores.aspx">Fornecedores</a>&nbsp;
+                                <a href="PROD_FOR.ASPX">Lista Produtos Por fornecedor</a>
+                            </td>
+                            <td class="auto-style3">
+                                Busca:<asp:TextBox ID="f_busca" runat="server" Height="23px" Width="187px"></asp:TextBox>
+                                <asp:Button ID="Button1" runat="server" Text="OK" OnClick="Unnamed1_Click" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Nome: Sidnei</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
