@@ -87,7 +87,6 @@ E sim — o **GitHub ainda estava engatinhando** nessa época também. A gente c
 ---
 
 *"Quem nunca escreveu um código horrível em 2014 que atire a primeira pedra."*  
-— Sidnei, provavelmente
 
 ---
 
