@@ -101,7 +101,6 @@ E sim — o **GitHub ainda estava engatinhando** nessa época também. A gente c
 | 2014 | Comecei a programar sério |
 | 2014 | GitHub ainda era mato |
 | 2014 | Fiz isso aqui |
-| 2024 | Revisitei, ri, chorei, commitei |
 | Hoje | Você tá lendo isso |
 
 ---
