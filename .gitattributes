@@ -8,3 +8,4 @@
 # Ignorar Hack
 *.hack linguist-detectable=false
 *.hh linguist-detectable=false
+*.hhi linguist-detectable=false   # ← FALTOU ESSA
