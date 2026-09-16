@@ -1,0 +1,10 @@
+# Ignorar HTML
+*.html linguist-detectable=false
+*.htm linguist-detectable=false
+
+# Ignorar Smalltalk
+*.st linguist-detectable=false
+
+# Ignorar Hack
+*.hack linguist-detectable=false
+*.hh linguist-detectable=false
