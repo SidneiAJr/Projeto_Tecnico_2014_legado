@@ -5,6 +5,7 @@
 </p>
 
 <p align="center">
+
 > Só eu e Deus sabíamos.  
 
 > Agora nem eu, nem Deus — só a Claude.
