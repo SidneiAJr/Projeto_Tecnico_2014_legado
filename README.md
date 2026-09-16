@@ -6,9 +6,9 @@
 
 <p align="center">
 
-> Só eu e Deus sabíamos.  
+- **Só eu e Deus sabíamos.** 
 
-> Agora nem eu, nem Deus — só a Claude.
+- **Agora nem eu, nem Deus — só a Claude.**
 
 Bem-vindo ao **museu**. Aqui só tem coisa velha mesmo.
 
