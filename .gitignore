@@ -1,1 +1,156 @@
+# ============================================
+# 🗿 Projetos Legado | 2014 - .gitignore
+# ============================================
+# Sim, eu sei que em 2014 eu não usava isso.
+# Melhor tarde do que nunca.
 
+# --------------------------------------------
+# 📦 Build / Compilados
+# --------------------------------------------
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# --------------------------------------------
+# 🧠 Visual Studio / .NET
+# --------------------------------------------
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.cache
+*.pdb
+*.dll
+*.exe
+*.lib
+*.obj
+
+# Arquivos do ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Arquivos do Visual Studio Code
+.vscode/
+
+# --------------------------------------------
+# 🌐 ASP.NET / WebForms
+# --------------------------------------------
+*.aspx.designer.cs
+*.master.designer.cs
+*.ascx.designer.cs
+*.asmx.designer.cs
+*.svc.designer.cs
+*.csproj.user
+*.vbproj.user
+*.fsproj.user
+
+# Pastas de publicação
+publish/
+Publish/
+*.pubxml
+*.pubxml.user
+*.publishproj
+
+# --------------------------------------------
+# 🗄️ Banco de Dados (Access / SQL)
+# --------------------------------------------
+# Se quiser versionar os .mdb, comenta essas linhas
+*.mdb
+*.accdb
+*.ldb
+*.laccdb
+*.db
+*.sqlite
+*.sqlite3
+
+# --------------------------------------------
+# 🐘 PHP
+# --------------------------------------------
+vendor/
+composer.lock
+*.log
+
+# --------------------------------------------
+# 📁 Uploads / Imagens geradas
+# --------------------------------------------
+# Se quiser versionar as imagens, comenta
+# uploads/
+# imagens/
+# Imagens1/
+
+# --------------------------------------------
+# 🔑 Configurações locais / Segredos
+# --------------------------------------------
+# (que em 2014 eu deixava hardcoded, mas hoje a gente finge que sabe)
+appsettings.*.json
+secrets.json
+*.config.user
+web.config.user
+Web.config.user
+Web.Debug.config
+Web.Release.config
+*.pfx
+*.pvk
+
+# --------------------------------------------
+# 💻 Sistema Operacional
+# --------------------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# --------------------------------------------
+# 🧰 Ferramentas / Editores
+# --------------------------------------------
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# --------------------------------------------
+# ☕ Node (por precaução, 2014 foi antes disso)
+# --------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --------------------------------------------
+# 🎭 Smalltalk fantasma
+# --------------------------------------------
+# Se aparecer no gráfico do GitHub do nada, já sabe
+*.st
+*.cs.st
+
+# --------------------------------------------
+# 🗿 Museu
+# --------------------------------------------
+# Se tá aqui é porque é velho e eu quis guardar.
+# Não mexe.
