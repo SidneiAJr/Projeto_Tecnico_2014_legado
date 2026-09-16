@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Default.aspx" title="Principal" description="">
+        <siteMapNode url="procategorias.aspx" title="Por Categorias" description="" />
+        <siteMapNode url="promarcas.aspx" title="Por Marcas" description="" />
+    </siteMapNode>
+</siteMap>

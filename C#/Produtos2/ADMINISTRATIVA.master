@@ -1,0 +1,56 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ADMINISTRATIVA.master.cs" Inherits="admin_ADMINISTRATIVA" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+        <table cellpadding="0" cellspacing="0" class="auto-style1">
+            <tr>
+                <td>
+                    <asp:TreeView ID="TreeView1" runat="server">
+                        <Nodes>
+                            <asp:TreeNode Text="Area ADM" Value="Area ADM">
+                                <asp:TreeNode NavigateUrl="Default.aspx" Text="ADM – Área Principal" Value="ADM – Área Principal"></asp:TreeNode>
+                            </asp:TreeNode>
+                            <asp:TreeNode Text="Cadastros administrativos" Value="Cadastros administrativos">
+                                <asp:TreeNode NavigateUrl="ADMProdutoras.aspx" Text="Cadastro de Produtoras" Value="Cadastro de Produtoras"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="ADMGeneros.aspx" Text="Cadastros de Generos" Value="Cadastros de Generos"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="ADMFilmes.aspx" Text="Cadastros de Filmes" Value="Cadastros de Filmes"></asp:TreeNode>
+                            </asp:TreeNode>
+                            <asp:TreeNode Text="Area ADM2" Value="Area ADM2">
+                                <asp:TreeNode NavigateUrl="ADMNews.aspx" Text="Cadastros de Admnewslleter" Value="Cadastros de Admnewslleter">
+                                    <asp:TreeNode NavigateUrl="ADMUsu.aspx" Text="Cadastro de usuario" Value="Cadastro de usuario"></asp:TreeNode>
+                                </asp:TreeNode>
+                            </asp:TreeNode>
+                        </Nodes>
+                    </asp:TreeView>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
