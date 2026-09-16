@@ -1,4 +1,6 @@
-<img width="709" height="678" alt="image" src="https://github.com/user-attachments/assets/240df8b1-42e3-42e4-bf62-5d6c29b14d00" />
+<p align="center>
+  <img width="709" height="678" alt="image" src="https://github.com/user-attachments/assets/240df8b1-42e3-42e4-bf62-5d6c29b14d00" />
+  </p>
 
 # 🗿 Projetos Legado | 2014
 
