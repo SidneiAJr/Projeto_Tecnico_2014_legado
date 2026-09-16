@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seja Bem-vindo ao Site de Construção</title>
+    <link href="css/estilos.css" rel="stylesheet" />
+    <link href="css/slides.css" rel="stylesheet" />
+    <link href="fancybox/jquery.fancybox.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div id="cabecalho">
+        <img src="imagens/logo.jpg" alt="Logo" />
+        <span>Seja Bem-vindo ao Site!</span>
+    </div>
+
+    <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">A Empresa</a></li>
+        <li><a href="#">Lançamentos</a></li>
+        <li><a href="#">Obras em Andamento</a></li>
+        <li><a href="#">Obras Realizadas</a></li>
+        <li><a href="#">Fale Conosco</a></li>
+    </ul>
+
+    <div id="centro">
+        <div id="slides">
+            <img src="imagens/predio.jpg"  alt="Prédio 1" width="450" height="341" />
+            <img src="imagens/predio2.jpg" alt="Prédio 2" width="450" height="341" />
+            <img src="imagens/predio3.jpg" alt="Prédio 3" width="450" height="341" />
+            <img src="imagens/predio4.jpg" alt="Prédio 4" width="450" height="341" />
+            <img src="imagens/predio5.jpg" alt="Prédio 5" width="450" height="341" />
+        </div>
+    </div>
+
+    <div id="caixacon">
+        <span>CONSTRUÇÕES</span>
+        <a class="fancybox" href="imagens/1_b.jpg" title="Construções">
+            <img src="imagens/predioicon.png" alt="Construções" />
+        </a>
+    </div>
+
+    <div id="caixavd">
+        <span>CONSTRUÇÕES E VENDAS</span>
+        <a class="fancybox" href="imagens/1_b.jpg" title="Construções e Vendas">
+            <img src="imagens/predioicon.png" alt="Construções e Vendas" />
+        </a>
+    </div>
+
+    <div id="caixacli">
+        <span>CLIENTES E VENDAS</span>
+        <a class="fancybox" href="imagens/1_b.jpg" title="Clientes e Vendas">
+            <img src="imagens/predioicon.png" alt="Clientes e Vendas" />
+        </a>
+    </div>
+
+    <div id="caixainfo">
+        <span>INFORMAÇÕES</span>
+        <img src="imagens/predioicon.png" alt="Informações" />
+    </div>
+
+    <div id="rodape">
+        <img src="imagens/download.jpg" alt="Logo rodapé" />
+        <span>fale-conosco</span>
+    </div>
+
+    <script src="js/jquery-1.9.0.js"></script>
+    <script src="js/jquery.slides.min.js"></script>
+    <script src="fancybox/jquery.fancybox.js"></script>
+    <script>
+        $(function () {
+            $('#slides').slidesjs({
+                width: 800,
+                height: 300,
+                play: {
+                    active: true,
+                    auto: true,
+                    interval: 4000,
+                    swap: true,
+                    effect: 'fade'
+                },
+                effect: {
+                    fade: {
+                        speed: 3000
+                    }
+                }
+            });
+
+            $('.fancybox').fancybox({
+                openEffect: 'none',
+                closeEffect: 'none'
+            });
+        });
+    </script>
+
+</body>
+</html>
