@@ -27,6 +27,7 @@ PHP misturado com HTML do jeito que se fazia naquela época: sem framework, sem 
 | **HTML** | Direto no meio do código, do jeito que o pai ensinou |
 | **Access (.mdb)** | Sim. Banco de dados Access. OLEDB. Sim. |
 | **Smalltalk** | Aparecia no gráfico do GitHub sem motivo. Ninguém sabe de onde veio. Provavelmente o GitHub viajou. |
+| Visual Studio 2008 | Porque era o que o professor mandou. Sem questionamentos. |
 
 ---
 
