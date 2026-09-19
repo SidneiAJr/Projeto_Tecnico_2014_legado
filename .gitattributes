@@ -1,9 +1,10 @@
+* text=auto eol=lf
+
+*.blade.php diff=html
+
 *.htm   linguist-detectable=false
-*.st    linguist-detectable=false
-*.hack  linguist-detectable=false
-*.hh    linguist-detectable=false
-*.hhi   linguist-detectable=false
 *.css   linguist-detectable=false
+*.html  linguist-detectable=false
 *.st    linguist-detectable=false linguist-vendored=true
 *.hack  linguist-detectable=false linguist-vendored=true
 *.hh    linguist-detectable=false linguist-vendored=true
