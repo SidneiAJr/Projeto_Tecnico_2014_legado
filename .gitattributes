@@ -9,3 +9,6 @@
 *.hack  linguist-detectable=false linguist-vendored=true
 *.hh    linguist-detectable=false linguist-vendored=true
 *.hhi   linguist-detectable=false linguist-vendored=true
+*.cshtml linguist-language=C#
+*.aspx   linguist-language=C#
+*.ascx   linguist-language=C#
