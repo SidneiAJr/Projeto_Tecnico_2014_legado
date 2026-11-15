@@ -5,7 +5,8 @@
 </p>
 
 > **Só eu e Deus sabíamos.**
-> Agora nem eu, nem Deus — só a Claude.
+> Depois nem eu, nem Deus.
+> Hoje só a Claude sabe — e se nem ela souber, ninguém sabe. É o fim.
 
 Bem-vindo ao museu. Aqui só tem coisa velha mesmo.
 
@@ -94,6 +95,17 @@ O GitHub ainda estava engatinhando nessa época também — a gente cresceu junt
 
 ---
 
+## 🤖 Documentação
+
+Este repositório foi corrigido, documentado e comentado pela **Claude (Anthropic)** em Novembro de 2026.
+
+Motivo: o autor original esqueceu o que o código fazia. Deus também. A Claude leu tudo, entendeu na primeira passagem e ainda fez README individual pra cada projeto sem reclamar.
+
+*A IA fez o que nem o criador conseguia mais fazer. Que tempos.*
+
+---
+
 *"Quem nunca escreveu um código horrível em 2014 que atire a primeira pedra."*
 
 Feito com ❤️, ☕ e muita falta de noção.
+Documentado com 🤖, paciência infinita e zero julgamento.
