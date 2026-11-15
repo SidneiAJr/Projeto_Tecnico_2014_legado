@@ -39,6 +39,9 @@ PHP misturado com HTML do jeito que se fazia naquela época: sem framework, sem 
 - *"Pra que `.gitignore`?"*
 - *"Connection string hardcoded é mais rápido."*
 - *"Esse projeto vai ser revolucionário."*
+- *"API REST? Isso é de comer?"*
+- *"Separação frontend/backend? Separação pra quê? É de comer?"*
+- *"O servidor renderiza tudo, sempre, pra sempre, amém."*
 - *nunca terminou*
 
 ---
@@ -61,6 +64,8 @@ Não tá seguro. Não tenta fingir que tá.
 | SQL Injection | Bem-vindo |
 | Session | Confiada demais |
 | HTTPS | Era um sonho |
+| API REST | Era ficção científica |
+| Frontend separado | Separação? Isso é de comer? |
 
 Mas hey — era 2014. A gente era feliz e não sabia.
 
@@ -73,6 +78,8 @@ Mas hey — era 2014. A gente era feliz e não sabia.
 - `LIKE '%' + ? + '%'` (que não funciona no Access, aliás)
 - `<tr>` sem `</tr>`
 - Smalltalk fantasma no gráfico de linguagens
+- O conceito de API (descanse, nunca foi apresentado formalmente)
+- O conceito de separação de responsabilidades (idem)
 
 ---
 
@@ -91,7 +98,10 @@ O GitHub ainda estava engatinhando nessa época também — a gente cresceu junt
 | 2014 | Comecei a programar sério |
 | 2014 | GitHub ainda era mato |
 | 2014 | Fiz isso aqui |
+| 2014 | Alguém falou "API REST" e eu olhei sem entender |
+| 2014 | "Frontend separado do backend?" — risadas nervosas |
 | Hoje | Você tá lendo isso |
+| Hoje | E provavelmente entendendo tudo que eu não entendia |
 
 ---
 
@@ -101,11 +111,15 @@ Este repositório foi corrigido, documentado e comentado pela **Claude (Anthropi
 
 Motivo: o autor original esqueceu o que o código fazia. Deus também. A Claude leu tudo, entendeu na primeira passagem e ainda fez README individual pra cada projeto sem reclamar.
 
+Inclusive leu `ConnectionString`, `ConnectionString2`, `ConnectionString3` e `ConnectionString4` apontando pro mesmo banco — e ficou quieta. Isso se chama **respeito**.
+
 *A IA fez o que nem o criador conseguia mais fazer. Que tempos.*
 
 ---
 
 *"Quem nunca escreveu um código horrível em 2014 que atire a primeira pedra."*
+
+*"Quem nunca olhou pra uma API REST e perguntou se era de comer que atire a segunda."*
 
 Feito com ❤️, ☕ e muita falta de noção.
 Documentado com 🤖, paciência infinita e zero julgamento.
